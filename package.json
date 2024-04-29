@@ -1,0 +1,19 @@
+{
+  "name": "zalgofy",
+  "version": "1.0.0",
+  "description": "A package to add random diacritics to a string of text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "diacritic",
+    "diacritics",
+    "zalgo",
+    "zalgofy",
+    "string"
+  ],
+  "author": "Greg Pritchard",
+  "license": "ISC",
+  "type": "module"
+}
