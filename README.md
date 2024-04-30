@@ -2,7 +2,9 @@
 Zalgofy is an ES compatible library that renders text in with the classic "zalgo" pattern. 
 Basically it will transform text that looks like this:
 >Random text 1234
+
 into something that looks like this:
+
 >̴̘̼̿R̳ͯ͂͢ȁ̙́ń̵̪̇d̦̟͛͟ó̷͕m ̰̲͑̽t̷̲̀͆ė͓͊͘x̶̬ͣ̚t ͓ͦͥ͝1̻̯̄͞2͍̗̎3̜͎͑͞4
 
 # Install
