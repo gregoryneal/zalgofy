@@ -29,7 +29,7 @@ export default function zalgofy(text, config={}) {
 
     function combineWithDiacritic(letter, diacriticList) {
         const d = diacriticList[getRandomInt(diacriticList.length) - 1];
-        let newLetter = letter.concat('', d);
+        let newLetter = d.concat('', letter);
         return newLetter.replaceAll(' ', '');
     }
 
@@ -39,9 +39,9 @@ export default function zalgofy(text, config={}) {
         if (!isAlphaNumeric(newLetter)) continue;
 
         var numAccents = 0;
-        var numU = getRandomInt(defaultConfig.maxAccentsUp);
-        var numM = getRandomInt(defaultConfig.maxAccentsMiddle);
-        var numD = getRandomInt(defaultConfig.maxAccentsDown);
+        var numU = defaultConfig.maxAccentsUp;
+        var numM = defaultConfig.maxAccentsMiddle;
+        var numD = defaultConfig.maxAccentsDown;
 
         while ((numAccents <= defaultConfig.maxTotalAccents) && (numU + numM + numD > 0)) {
             let j = getRandomInt(3);
